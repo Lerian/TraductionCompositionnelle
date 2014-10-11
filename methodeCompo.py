@@ -4,7 +4,16 @@
 import xml.sax
 import sys
 
+
+# pour exécuter :
+# python methodeCompo.py acabit_fr.xml
+
 def main(argv) :
+
+    if len(argv) != 1:
+        print "Usage : methodeCompo.py acabit_fr.xml"
+        sys.exit()
+    
     termes = content_handler(argv[0])
     
     print "MWTs:"
