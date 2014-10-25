@@ -1,9 +1,13 @@
 README
 suffixe.txt
 *.pdf
+*.png
 acabit_fr.xml
+acabit_en.xml
 idees
 
 M0033/*
 corpus-atal/*
 useless/*
+stopwords/*
+outputs/*

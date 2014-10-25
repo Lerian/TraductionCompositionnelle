@@ -1,0 +1,16 @@
+Travail:
+    - récupération des mwt FR et EN sans les hapax
+    - extraction du dico
+    - suppression de toutes les entrées FR du dico inutilisées
+    - suppression des MWTs fr dont on n'a pas de traduction pour tous les termes
+    - suppression des MWTs avec plus de 2 mots pleins
+    - ajout de la traduction '' pour les stopwords
+    - traduction mot à mot fr->en
+    - pour chaque MWT fr:
+        - calcul des permutations possibles
+        - pour chaque permutation possible:
+            - si la trad est présente dans acabit_en, on garde avec la fréquence
+                sinon on supprime
+        - on classe les permutations par ordre de fréquence décroissant
+
+
